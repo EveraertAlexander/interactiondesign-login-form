@@ -184,6 +184,10 @@ a:focus {
     color: DeepPink;
 }
 
+label, input {
+    display: block;
+}
+
 /*------------------------------------*\
 #OBJECTS
 \*------------------------------------*/
@@ -450,6 +454,11 @@ a:focus {
     justify-content: center;
 }
 
+.c-logo__symbol {
+    height: 100%;
+    display: block;
+}
+
 .c-logo__path--1 {
     fill: #3385FF;  
 } 
@@ -471,6 +480,15 @@ a:focus {
     ---
     Everything form related here
 */
+
+.c-form-field {
+    display: block;
+}
+
+.c-form-field--option {
+    display: flex;
+    align-items: center;
+}
 
 /*
     Component: Input
