@@ -498,6 +498,36 @@ input {
     Card with box shadow
 */
 
+.c-card {
+    background-color: #fff;
+    border: 1px solid #00000010;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px 2px #00000010;
+}
+
+.c-card__body {
+    padding: 0 48px;
+}
+
+.c-card__footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #E2E3E7;
+    padding: 24px;
+    padding-bottom: 0px;
+    line-height: 24px;
+}
+
+.c-card__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 48px 0;
+}
+
 
 /*
     Component: Forms
@@ -543,6 +573,10 @@ input {
     box-shadow: 0 0 0 3px #3385ff4d;
 }
 
+.c-input:hover {
+    border-color: #CACCD4;
+}
+
 
 /*
     Component: Label
@@ -564,13 +598,31 @@ input {
     Class to put on form buttons or links
 */
 
-.c-button {}
+.c-button {
+    width: 100%;
+    background: #3385FF;
+    border: 1px solid #2E77E6;
+    color: #fff;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 11px;
+    border-radius: 3px;
+}
 
-.c-button:hover {}
+.c-button:hover {
+    background-color: #4F95FF;
+}
 
-.c-button:focus {}
+.c-button:focus {
+    background-color: #3385FF;
+    box-shadow: 0 0 0 3px #3385FF4D;
+}
 
-.c-button:active {}
+.c-button:active {
+    background-color: #2E77E6;
+}
 
 .c-button--block {}
 
